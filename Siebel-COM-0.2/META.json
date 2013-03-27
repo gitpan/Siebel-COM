@@ -1,0 +1,48 @@
+{
+   "abstract" : "Perl extension to access Siebel application through Microsoft COM ",
+   "author" : [
+      "Alceu Rodrigues de Freitas Junior <arfreitas@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "open_source"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Siebel-COM",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::Class" : "0.36",
+            "Test::Most" : "0.25",
+            "Test::Pod" : "1.22",
+            "Test::Pod::Coverage" : "1.08"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Devel::CheckOS" : "1.17",
+            "Moose" : "2.0603",
+            "MooseX::FollowPBP" : "0.05",
+            "Win32::OLE" : "0.1709",
+            "namespace::autoclean" : "0.13"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.2"
+}
